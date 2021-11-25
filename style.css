@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    appearance: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#bill {
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+}
+
+#select-tip {
+    display: flex;
+    flex-direction: column;
+    margin: .2em;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tip-btn {
+    width: 45%;
+    margin: .2em;
+}
+
+#num-of-people {
+    display: flex;
+    flex-direction: column;
+}
+
+#tip-summary {
+    display: flex;
+    flex-direction: column;
+}
+
+#summary {
+    display: flex;
+    flex-direction: row;
+}
+
+.per-person {
+    display: flex;
+    flex-direction: column;
+    margin: .3em;
+    padding: .2em;
+}
+
+.value {
+    padding: .3em;
+    margin: 1em;
+}
