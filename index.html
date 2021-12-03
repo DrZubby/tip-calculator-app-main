@@ -8,14 +8,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 
     <title>Frontend Mentor | Tip calculator app</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    SPLITTER
+    <div id="splitter">SPLI</br>TTER</div>
     <div id="tip-calc">
         <div id="bill">
-            <label for="bill-input">Bill</label>
+            <label for="bill-input" id="bill-letter">Bill</label>
             <input type="number" name="bill-input" id="bill-input" placeholder="0">
         </div>
         <div id="select-tip">
@@ -37,7 +40,7 @@
 
     <div id="tip-summary">
         <div id="summary">
-            <div>
+            <div id="tip">
                 <div class="per-person" id="tip-ammount">
                     <span class="white-bold">Tip Amount</span> <span class="grey-light">/ person</span>
                 </div>

@@ -77,13 +77,10 @@ fiftyBtn.onclick = (e) => {
     handle(fiftyBtn)
 }
 
-custom.onkeypress = (e)=> {
-    if (e.which === 13) {
-        e.preventDefault();
+custom.onchange = (e)=> {
         console.log("here")
         handle(custom)
     }
-}
 
 resetBtn.onclick = ()=> {
     bill.value = "";

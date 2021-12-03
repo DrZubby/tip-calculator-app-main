@@ -1,0 +1,161 @@
+$primary: hsl(172, 67%, 45%);
+$very-dark-cyan: hsl(183, 100%, 15%);
+$Dark-grayish-cyan: hsl(184, 14%, 56%);
+$Light-grayish-cyan-d: hsl(185, 41%, 84%);
+$Light-grayish-cyan-l: hsl(189, 41%, 97%);
+$White: hsl(0, 0%, 100%);
+$font-primary: 'Space Mono', monospace;
+
+* {
+    box-sizing: border-box;
+    appearance: none;
+}
+
+%btn-shared {
+    border-style: none;
+    border-radius: .3em;
+    font-size: 22px;
+    font-weight: 700;
+    padding: .4em;
+    font-family: $font-primary;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $White;
+    font-family: $font-primary;
+}
+
+#splitter {
+    background-color: $Light-grayish-cyan-d;
+    color: $very-dark-cyan;
+    padding: 2em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-bottom: 0em;
+}
+
+input {
+    border-style: none;
+    border-radius: .3em;
+    width: 90%;
+    padding: .3em;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    background-color: $Light-grayish-cyan-l;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#bill {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em 2em 0 0;
+    font-weight: 700;
+    color: $Dark-grayish-cyan;
+    background-color: $White;
+    margin-top: -2em;
+}
+
+#bill-letter {
+    padding: 1.5em 4em .2em 3em;
+}
+
+#select-tip {
+    display: flex;
+    flex-direction: column;
+    margin: .2em;
+    font-weight: 700;
+    color: $Dark-grayish-cyan;
+}
+
+#btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2%
+
+}
+
+.tip-btn {
+    @extend %btn-shared;
+    width: 45%;
+    margin: 2.5%;
+    background-color: $very-dark-cyan;
+    color: $White;
+}
+
+#custom {
+    width: 44%;
+    margin: .5em .2em .3em .4em;
+    font-size: 22px;
+    padding: .1em 0em .1em 2em;
+    font-weight: 700;
+    font-family: $font-primary;
+    height: 2.2em;
+}
+
+#num-of-people {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: $Dark-grayish-cyan;
+}
+
+#tip-summary {
+    display: flex;
+    flex-direction: column;
+    background-color: $very-dark-cyan;
+    border-radius: 1em;
+}
+
+#summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+#tip {
+    margin-top: 10%;
+}
+
+#tip-amount {
+    margin-bottom: 1em;
+}
+
+.per-person {
+    display: flex;
+    flex-direction: column;
+    color:  $White;
+    margin: 0em .5em 2em .5em;
+
+    .white-bold {
+        font-weight: 700;
+    }
+
+    .grey-light {
+        font-weight: 400;
+        color: $Dark-grayish-cyan;
+    }
+}
+
+.value {
+    margin: 1em;
+    color: $primary;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+
+
+#reset {
+    @extend %btn-shared;
+    background-color: $primary;
+    margin-left: 5%;
+    margin-bottom: 6.5%;
+    margin-top: .5%;
+    width: 90%;
+}
