@@ -1,0 +1,21 @@
+#bill-input,
+.bill-input {
+  border: 1px solid hsl(183, 100%, 15%);
+  outline-color: hsl(183, 100%, 15%);
+}
+.tip-btn {
+  cursor: pointer;
+  &:focus {
+    border: 2px solid cyan;
+  }
+  &__input {
+    border: 2px solid hsl(183, 100%, 15%);
+    outline-color: cyan;
+    &:focus {
+      background: hsl(183, 100%, 15%);
+    }
+  }
+}
+#reset {
+  cursor: pointer;
+}
