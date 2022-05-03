@@ -1,3 +1,23 @@
+#bill-letter,
+#select,
+#num-of-people {
+  @media screen and (min-width: 700px) {
+    font-size: 2.5rem;
+    font-weight: 300 !important;
+    margin-left: 4rem;
+  }
+}
+#num-of-people-input {
+  @media screen and (min-width: 700px) {
+    margin-left: -1rem !important;
+    width: 100% !important;
+  }
+}
+#splitter {
+  @media screen and (min-width: 700px) {
+    font-size: 4rem !important;
+  }
+}
 #bill-input,
 .bill-input {
   border: 1px solid hsl(183, 100%, 15%);
@@ -18,4 +38,23 @@
 }
 #reset {
   cursor: pointer;
+}
+.white-bold,
+.grey-light,
+.white-bold,
+.value {
+  @media screen and (min-width: 700px) {
+    font-size: 1.6rem;
+  }
+}
+.value {
+  margin-top: 2.5rem !important;
+  @media screen and (min-width: 700px) {
+    font-size: 6vh !important;
+    margin-top: 4rem !important;
+  }
+}
+#custom {
+  width: 45% !important;
+  margin: 2.5% !important;
 }
