@@ -1,0 +1,211 @@
+#bill-input,
+.bill-input {
+  border: 1px solid #00494d;
+  outline-color: #00494d;
+}
+
+.tip-btn {
+  cursor: pointer;
+}
+
+.tip-btn:focus {
+  border: 2px solid cyan;
+}
+
+.tip-btn__input {
+  border: 2px solid #00494d;
+  outline-color: cyan;
+}
+
+.tip-btn__input:focus {
+  background: #00494d;
+}
+
+#reset {
+  cursor: pointer;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+.tip-btn, #reset {
+  border-style: none;
+  border-radius: 0.3em;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0.4em;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  font-family: "Space Mono", monospace;
+}
+
+#splitter {
+  background-color: #c5e4e7;
+  color: #00494d;
+  padding: 2em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 0em;
+}
+
+input {
+  border-style: none;
+  border-radius: 0.3em;
+  width: 90%;
+  padding: 0.3em;
+  margin-left: 5%;
+  margin-bottom: 10%;
+  background-color: #f4fafa;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#bill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 2em 2em 0 0;
+  font-weight: 700;
+  color: #7f9c9f;
+  background-color: white;
+  margin-top: -2em;
+}
+
+#bill-letter {
+  padding: 1.5em 4em 0.2em 3em;
+}
+
+#select-tip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0.2em;
+  font-weight: 700;
+  color: #7f9c9f;
+}
+
+#btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 2%;
+}
+
+.tip-btn {
+  width: 45%;
+  margin: 2.5%;
+  background-color: #00494d;
+  color: white;
+}
+
+#custom {
+  width: 44%;
+  margin: 0.5em 0.2em 0.3em 0.4em;
+  font-size: 22px;
+  padding: 0.1em 0em 0.1em 2em;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  height: 2.2em;
+}
+
+#num-of-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+  color: #7f9c9f;
+}
+
+#tip-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1em;
+}
+
+#summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4%;
+}
+
+#tip {
+  margin-top: 10%;
+}
+
+#tip-amount {
+  margin-bottom: 1em;
+}
+
+.per-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  margin: 0em 0.5em 2em 0.5em;
+}
+
+.per-person .white-bold {
+  font-weight: 700;
+}
+
+.per-person .grey-light {
+  font-weight: 400;
+  color: #7f9c9f;
+}
+
+.value {
+  margin: 1em;
+  color: #26c0ab;
+  font-size: 4vh;
+  font-weight: 700;
+}
+
+#reset {
+  background-color: #26c0ab;
+  margin-left: 5%;
+  margin-bottom: 6.5%;
+  margin-top: 0.5%;
+}

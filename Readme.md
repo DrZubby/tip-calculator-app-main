@@ -1,21 +1,18 @@
-# Frontend Mentor - Tip calculator app solution
+#DISCLIAMER
+This is a forked repo with certain inputs and suggestions
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). 
+##But due to scss compiler incompatibity, i cannot make a pul request to aviod messing the orinal codes up
 
-This tip calculator is able to perform calculations for any amount of tip you intend to donate and for any number of people based on a percentage from your bill.
+### I used vs code scss compiler which created a dist file contaiing the css files
 
-### Built with
+## WHAT I DID
 
-- Semantic HTML5 markup
-- CSS custom properties*
-- Flexbox
-- Mobile-first workflow
-- Vanilla JavaScript
+I set the cursor property of all the buttons to the value of pointer
 
-*HTML and JS almost fully implemented while CSS styling is next on my agenda. 
+I added an :focus pseudo element to the select tip buttons and set with the pseudo element, i added an outline color with the value of 2px solid cyan;
 
-### Continued development
+I added a border colour to the custom but and i also used the :hover pseudo element to add a background property containing a hsl colour
 
-A simple project to test how much grasp I have on vanilla JS concepts while I continue my journey learning React. Speaking of React, I intend to produce a React version of this App in the nearest future!
-Expect an edit soon!
+I added a class with the value of bill-input to the form input element titled Bill. I used this class to add a border colour and an outline colour
 
+Finally, i also did the same thing for the form input element titled Number Of People with the only diffrence being that it already had an id with the value of bill-input.
